@@ -1,0 +1,45 @@
+/* pages/picture/picture.wxss */
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.picture-view {
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  width: 335rpx;
+  height: 100%;
+  margin: 20rpx;
+}
+
+.picture-img {
+  width: 335rpx;
+  height: 100%;
+  border: 2rpx solid #000;
+}
+
+.brand {
+  position: absolute;
+  bottom: 10%;
+  left: 4%;
+  font-size: 30rpx;
+  font-weight: 600;
+}
+
+.title {
+  position: absolute;
+  bottom: 1%;
+  left: 4%;
+  width: 300rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 24rpx;
+}

@@ -1,0 +1,8 @@
+<!--pages/picture/picture.wxml-->
+<view class='container'>
+  <view class='picture-view' wx:for="{{pictureArray}}" wx:key="id" id="{{index}}" bindtap='clickInfo'>
+  <image class='picture-img' src="{{item.main_image}}" mode='widthFix'></image>
+  <view class='brand'>{{item.brand}}</view>
+  <view class='title'>{{item.title}}</view>
+  </view>
+</view>

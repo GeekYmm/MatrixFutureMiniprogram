@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/picture/picture",
+    "pages/video/video",
+    "pages/pictureInfo/pictureInfo",
+    "pages/videoInfo/videoInfo"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "矩阵未来面试",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#000",
+    "list": [
+      {
+        "pagePath": "pages/picture/picture",
+        "iconPath": "icon/picture_s.png",
+        "selectedIconPath": "icon/picture.png",
+        "text": "图片库"
+      },
+      {
+        "pagePath": "pages/video/video",
+        "iconPath": "icon/video_s.png",
+        "selectedIconPath": "icon/video.png",
+        "text": "视频库"
+      }
+    ]
+  }
+}

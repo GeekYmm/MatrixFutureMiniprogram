@@ -1,0 +1,59 @@
+/* pages/pictureInfo/pictureInfo.wxss */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100rpx;
+  position: relative;
+}
+
+.picture-view {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.picture-img {
+  width: 230rpx;
+  margin: 10rpx;
+  height: 100%;
+}
+
+.title {
+  font-size: 30rpx;
+  font-weight: 600rpx;
+  margin: 20rpx;
+}
+
+.description {
+  font-size: 24rpx;
+  line-height: 30rpx;
+  margin: 20rpx;
+  width: 710rpx;
+}
+
+.footer{
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100rpx;
+  bottom: 0;
+  background-color: rgba(141, 131, 131, 0.836);
+}
+
+.footer-item{
+  color: #fff;
+  font-size: 32rpx;
+  width: 50%;
+  height: 100rpx;
+  text-align: center;
+  line-height: 100rpx;
+}

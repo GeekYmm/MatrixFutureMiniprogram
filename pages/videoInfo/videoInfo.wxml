@@ -1,0 +1,7 @@
+<!--pages/videoInfo/videoInfo.wxml-->
+<video class='video' src='{{obj.src}}' autoplay controls title='{{obj.title}}' poster="{{obj.thumbnail_url}}"></video>
+<view class='container'>
+  <view class='title'>{{obj.title}}</view>
+  <view class='text'>播放量：{{obj.view_count}}</view>
+  <view class='text'>发布时间：{{obj.published_time_text}}</view>
+</view>

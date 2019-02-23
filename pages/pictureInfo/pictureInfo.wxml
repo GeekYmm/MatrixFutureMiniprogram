@@ -1,0 +1,12 @@
+<!--pages/pictureInfo/pictureInfo.wxml-->
+<view class='container'>
+  <view class='picture-view'>
+    <image class='picture-img' wx:for="{{obj.collection_image}}" wx:key="id" src="{{item}}" mode='widthFix'></image>
+  </view>
+  <view class='title'>{{obj.title}}</view>
+  <view class='description'>{{obj.description}}</view>
+  <view class='footer'>
+    <view class='footer-item'>价格: {{obj.price}}</view>
+    <view class='footer-item'>浏览量: {{obj.review_count}}</view>
+  </view>
+</view>

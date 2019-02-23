@@ -1,0 +1,8 @@
+<!--pages/video/video.wxml-->
+<view class='container'>
+  <view class='picture-view' wx:for="{{videoArray}}" wx:key="id" id="{{index}}" bindtap='clickInfo'>
+    <image class='picture-img' src="{{item.thumbnail_url}}" mode='widthFix'></image>
+    <image class='play' src="../../icon/play.png" mode='widthFix'></image>
+    <view class='title'>{{item.title}}</view>
+  </view>
+</view>
